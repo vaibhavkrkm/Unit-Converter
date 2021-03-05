@@ -18,6 +18,7 @@ void main()
 		puts("1) Distance Converter");
 		puts("2) Mass Converter");
 		puts("3) Volume Converter");
+		puts("Q) Quit to Desktop");
 
 		while(1)
 		{
