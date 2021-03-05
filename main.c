@@ -41,6 +41,8 @@ void main()
 				c = 3;
 				break;
 			}
+			else if(userInput == 'Q' || userInput == 'q')
+				exit(0);
 		}
 
 		unitsMessage(c, 0, &fromUnit);     // taking 'From' unit from the user
@@ -171,7 +173,7 @@ void main()
 						printf("cm:\n");
 						break;
 					case 4:
-						printf("mm:\n");
+						printf("miles:\n");
 						break;
 					case 5:
 						printf("yards:\n");
